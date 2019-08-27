@@ -21,13 +21,13 @@
 }
 
 .left-eye {
-  top: 20px;
+  top: 30px;
   left: 30px;
   position: absolute;
 }
 
 .right-eye {
-  top: 20px;
+  top: 30px;
   right: 30px;
   position: absolute;
 }
@@ -39,7 +39,7 @@
   background: black;
   position: absolute;
   left: 25px;
-  top: 60px;
+  top: 70px;
 }
 
 /* *** End Face Section *** */
@@ -51,15 +51,24 @@
   position: relative;
   /* Helper: Center Hat */
   left: 45.6%;
-  margin-top: -165px;
+  margin-top: -160px;
 }
 .fez {
   border-bottom: 70px solid #800020;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
+  border-radius: 20px 20px 5px 5px;
   height: 0;
   width: 70px;
   position: absolute;
+}
+
+.tassel {
+  height:10px;
+  width:10px;
+  border:5px solid black;
+  border-bottom: 0px;
+  border-radius: 45px 45px 0px 0px;
 }
 
 /* *** End Hat Section ***  */
