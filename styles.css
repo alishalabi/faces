@@ -71,4 +71,38 @@
   border-radius: 45px 45px 0px 0px;
 }
 
+.cowboy-bottom {
+  height: 25px;
+  width: 150px;
+  border-radius: 0 0 90px 90px;
+  background: #5F4412;
+  position: absolute;
+  left: -30px;
+  top: 55px;
+}
+
+.cowboy-top {
+  position: relative;
+  width: 100px;
+  height: 90px;
+}
+.cowboy-top:before,
+.cowboy-top:after {
+  position: absolute;
+  content: "";
+  left: 40px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #5F4412;
+  border-radius: 50px 50px 0 0;
+  /* transform: rotate(-45deg); */
+  transform-origin: 0 100%;
+}
+.cowboy-top:after {
+  left: 0;
+  /* transform: rotate(45deg); */
+  transform-origin: 100% 100%;
+}
+
 /* *** End Hat Section ***  */
