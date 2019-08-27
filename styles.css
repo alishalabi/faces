@@ -1,0 +1,41 @@
+.face {
+  width: 100px;
+  height: 110px;
+  background: #F8CD64;
+  border-radius: 50%;
+  position: relative;
+  /* Helper: Center Face */
+  left: 45%;
+  margin-top: 25%;
+}
+
+.eye {
+  width: 10px;
+  height: 25px;
+  background: black;
+  border-radius: 50%;
+  /* Pain point */
+  position: absolute;
+}
+
+.left-eye {
+  top: 20px;
+  left: 30px;
+  position: absolute;
+}
+
+.right-eye {
+  top: 20px;
+  right: 30px;
+  position: absolute;
+}
+
+.mouth {
+  height: 25px;
+  width: 50px;
+  border-radius: 0 0 90px 90px;
+  background: black;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+}
