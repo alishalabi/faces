@@ -1,3 +1,5 @@
+/* *** Begin Face Section *** */
+
 .face {
   width: 100px;
   height: 110px;
@@ -39,3 +41,25 @@
   left: 25px;
   top: 60px;
 }
+
+/* *** End Face Section *** */
+
+
+/* *** Begin Hat Section *** */
+
+.hat {
+  position: relative;
+  /* Helper: Center Hat */
+  left: 45.6%;
+  margin-top: -165px;
+}
+.fez {
+  border-bottom: 70px solid #800020;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  height: 0;
+  width: 70px;
+  position: absolute;
+}
+
+/* *** End Hat Section ***  */
