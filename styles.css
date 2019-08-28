@@ -1,3 +1,7 @@
+/* .wrapper {
+  z-index: 2;
+} */
+
 /* *** Begin Face Section *** */
 
 .face {
@@ -9,6 +13,7 @@
   /* Helper: Center Face */
   left: 45%;
   margin-top: 25%;
+  z-index: 0;
 }
 
 .eye {
@@ -113,7 +118,7 @@
   border-top: 70px solid #8C1A11;
   margin-top: 60px;
   margin-left: 35px;
-  transform: rotate(-18deg);
+  transform: rotate(-18deg) translate(-5px, 0px);
 
 }
 
@@ -123,6 +128,15 @@
   background: white;
   border-radius: 50%;
   transform: translate(-8px, -30px);
+}
+
+.cowboy-scarf-back {
+  width: 90px;
+  height: 35px;
+  background: #8C1A11;
+  border-radius: 35px / 18px;
+  transform: translate(425px, 350px);
+  z-index: -1;
 }
 
 /* *** End Hat Section ***  */
